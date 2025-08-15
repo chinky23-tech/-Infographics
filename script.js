@@ -111,6 +111,6 @@ new Chart(document.getElementById('popularityChart'), {
     }
 });
 // Dark/Light Mode Toggle
-document.getElementById("themeToggle").addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+document.getElementById("themeSwitch").addEventListener("change", function() {
+    document.body.classList.toggle("dark-mode", this.checked);
 });
