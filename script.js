@@ -111,6 +111,11 @@ new Chart(document.getElementById('popularityChart'), {
     }
 });
 // Dark/Light Mode Toggle
-document.getElementById("themeSwitch").addEventListener("change", function() {
+const themeSwitch = document.getElementById("themeSwitch");
+const icon = document.querySelector(".toggle-icon");
+
+themeSwitch.addEventListener("change", function () {
     document.body.classList.toggle("dark-mode", this.checked);
+    icon.textContent = this.checked ? "🌙" : "🌞";
 });
+
