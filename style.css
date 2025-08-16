@@ -19,14 +19,7 @@ header p{
     margin: 8px;
     font-size: 18px;
 }
-/*
-header button{
-margin: 10px;
-padding: 10px;
-border-radius: 20px;
-border: 1px solid  #378d1c;
-cursor: pointer;
-}*/
+
 .chart-container{
     width: 90%;
     max-width: 800px;
